@@ -1,1 +1,33 @@
-
+.w3-theme-d2 {color:#000 !important; background-color:#e9ab18 !important}
+.w3-theme-l5 {color:#000 !important; background-color:#fefbf5 !important}
+.w3-theme-l3 {color:#000 !important; background-color:#f9e6ba !important}
+.w3-theme-d2 {color:#000 !important; background-color:#e9ab18 !important}
+.w3-theme-d1 {color:#000 !important; background-color:#ecb535 !important}
+i {
+  color: #e9ab18 !important
+}
+main {
+  padding-top: 80px;
+}
+nav span a:hover {
+  text-decoration: none;
+}
+iframe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-container > div {
+  flex-grow: 1;
+}
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
