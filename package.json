@@ -1,0 +1,15 @@
+{
+  "name": "freecodecamp-product-landing",
+  "version": "1.0.0",
+  "description": "A basic landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "author": "Brenda Chepkorir N",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
